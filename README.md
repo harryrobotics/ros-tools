@@ -1,6 +1,6 @@
 # rostools
 
-##bag_to_csv_harry
+## bag_to_csv_harry
 
 Usage
 
@@ -12,3 +12,5 @@ e.g bagName = ros_bag_file.bag
 `./bag_to_csv_harry.py topics_list ./ros_bag_file.bag`
 
 `./bag_to_csv_harry.py read bagName topics` : to convert specific topics to csv e.g: bag2csv.py read bagName /topic1 /topic2
+
+Code is modified from : https://www.clearpathrobotics.com/assets/guides/ros/Converting%20ROS%20bag%20to%20CSV.html
